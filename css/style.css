@@ -477,7 +477,7 @@ textarea {
 }
 .form-label {
   font-size: 25px;
-  color: #5e9bfc;
+  color: var(--clr-accent);
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -494,13 +494,13 @@ textarea {
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: #5e9bfc;
+  border-color: var(--clr-accent);
 }
 .js-hide-label {
   opacity: 0;
 }
 .js-unhighlight-label {
-  color: #999;
+  color: var(--clr-accent);
 }
 .btn-start-order {
   background: 0 0 #ffffff;
@@ -518,6 +518,6 @@ textarea {
 .btn-start-order:hover,
 .btn-start-order:active,
 .btn-start-order:focus {
-  border-color: #5e9bfc;
-  color: #5e9bfc;
+  border-color: var(--clr-accent);
+  color: var(--clr-accent);
 }
